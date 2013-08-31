@@ -21,6 +21,10 @@ Using :
 Notes
 ----------
 
+### PM2
+
+http://devo.ps/blog/2013/06/26/goodbye-node-forever-hello-pm2.html
+
 Starting the app via PM2 :
 
 pm2 start app.js -i max
