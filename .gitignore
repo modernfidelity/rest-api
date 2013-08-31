@@ -11,4 +11,9 @@ pids
 logs
 results
 
+.DS_Store
+
+logs
+access.log
+
 npm-debug.log

@@ -17,6 +17,9 @@ var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
 var cluster = require('cluster');
+var fs = require('fs');
+
+var access_logfile = fs.createWriteStream('./access.log', {flags: 'a'});
 
 var app = express();
 
@@ -37,12 +40,15 @@ if (cluster.isMaster) {
 } else {
 
 
+    app.use(express.logger({stream: access_logfile }));
+
+
     // all environments
     app.set('port', process.env.PORT || 3000);
     app.set('views', __dirname + '/views');
     app.set('view engine', 'jade');
     app.use(express.favicon());
-    app.use(express.logger('dev'));
+
     app.use(express.bodyParser());
     app.use(express.methodOverride());
     app.use(app.router);
