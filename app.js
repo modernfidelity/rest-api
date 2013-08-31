@@ -1,7 +1,15 @@
-
 /**
- * Module dependencies.
+ *
+ * REST API v.0.1
+ *
+ * Provides a simple API that will include content, user and media apis
+ *
+ * @author Mark Rushton
+ *
  */
+
+
+// Module dependencies.
 
 var express = require('express');
 var routes = require('./routes');
