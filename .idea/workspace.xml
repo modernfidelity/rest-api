@@ -8,6 +8,7 @@
     <file path="/opt/local/apache2/htdocs/aatc/docroot/sites/all/modules/custom/aat_forms/aat_contact/aat_contact.info" changelist="c3185eea-8f3b-4e38-91dd-f56dece9f4b2" time="1377979672432" ignored="false" />
     <file path="/opt/local/apache2/htdocs/aatc/docroot/sites/all/modules/custom/aat_forms/aat_contact/theme/aat_contact_page.tpl.php" changelist="c3185eea-8f3b-4e38-91dd-f56dece9f4b2" time="1377979672432" ignored="false" />
     <file path="/opt/local/apache2/htdocs/aatc/docroot/sites/all/modules/custom/aat_forms/aat_contact/theme/aat_contact_page_detail_pane.tpl.php" changelist="c3185eea-8f3b-4e38-91dd-f56dece9f4b2" time="1377979672432" ignored="false" />
+    <file path="/package.json" changelist="c3185eea-8f3b-4e38-91dd-f56dece9f4b2" time="1377983542174" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,19 +73,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="4" selection-start="818" selection-end="818" vertical-scroll-proportion="0.43724138">
+            <state line="42" column="4" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="130" selection-end="130" vertical-scroll-proportion="-4.576923">
+            <state line="14" column="21" selection-start="298" selection-end="298" vertical-scroll-proportion="0.3404864">
               <folding />
             </state>
           </provider>
@@ -100,8 +101,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -312,16 +313,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="130" selection-end="130" vertical-scroll-proportion="-4.576923">
+        <state line="42" column="4" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="4" selection-start="818" selection-end="818" vertical-scroll-proportion="0.43724138">
+        <state line="14" column="21" selection-start="298" selection-end="298" vertical-scroll-proportion="0.3404864">
           <folding />
         </state>
       </provider>
