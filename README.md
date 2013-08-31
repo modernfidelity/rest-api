@@ -11,9 +11,25 @@ Using :
 - Forever
 - Passport
 - MySQL
+- PM2
+
+
+ 
+
+
 
 Notes
 ----------
+
+Starting the app via PM2 :
+
+pm2 start app.js -i max
+
+Other useful commands : 
+
+pm2 list
+pm2 monit
+
 
 siege -c100 -t1M http://localhost:3000/
 
