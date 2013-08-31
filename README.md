@@ -6,10 +6,11 @@ A simple api application to handle user, content and media data written in Node.
 
 Using : 
 
-Express 
-Cluster
-Passport
+Express
 
+Cluster
+
+Passport
 
 
 Notes
