@@ -35,9 +35,11 @@ pm2 list
 pm2 monit
 
 
+### SIEGE
+
 siege -c100 -t1M http://localhost:3000/
 
-### No Cluster 
+<em>No Cluster</em>
 
 ** SIEGE 2.72
 ** Preparing 100 concurrent users for battle.
@@ -58,7 +60,7 @@ Lifting the server siege...      done.
 - Shortest transaction:	        0.00
 
 
-### With Cluster
+<em>With Cluster</em>
 
 ** SIEGE 2.72
 ** Preparing 100 concurrent users for battle.
